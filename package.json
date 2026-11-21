@@ -1,0 +1,13 @@
+{
+  "name": "vue-detached-watcher-retains-component",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "NODE_ENV=production node --expose-gc repro.mjs"
+  },
+  "dependencies": {
+    "happy-dom": "20.14.6",
+    "pinia": "3.0.4",
+    "vue": "3.5.44"
+  }
+}
